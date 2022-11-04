@@ -1,0 +1,13 @@
+
+
+@mixin flexed ($jc: center, $ai: center, $gap: null) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $gap;
+    
+}
+@mixin transition($type: color)
+{
+    transition: $type 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

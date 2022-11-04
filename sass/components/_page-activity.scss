@@ -1,0 +1,27 @@
+.activity {
+    @include flexed ($jc: space-between, $ai: null, $gap: null);
+}
+
+
+.activity__thumb {
+    position: relative;
+}
+
+.activity__backdrop {
+
+    @include flexed ($jc: center, $ai: center, $gap: null);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: $backdrop-background-activity;
+}
+
+.activity__description {
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: uppercase;
+
+    color: $primary-white-color;
+}

@@ -1,0 +1,4 @@
+/*header*/
+.main-nav {
+    @include flexed ($jc: null, $ai: center, $gap: null);
+}

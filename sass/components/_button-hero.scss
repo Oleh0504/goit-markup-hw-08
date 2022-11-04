@@ -1,0 +1,19 @@
+.button__hero {
+    
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+/*outline: none;*/
+    padding: 10px 32px;
+
+    color: $primary-white-color;
+    background-color: $accent-color;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    /*align-items: center;*/
+    letter-spacing: 0.06em;
+}

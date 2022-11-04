@@ -1,0 +1,33 @@
+/*--Наша перевага*/
+
+
+
+.advantage__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage__item {
+    width: 270px;
+}
+
+.advantage__tumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: $grey-background-color;
+}
+
+.advantage__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+
+    color: $title-text-color;
+}

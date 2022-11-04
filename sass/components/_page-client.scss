@@ -1,0 +1,35 @@
+
+/* Наши клиенти*/
+.client {
+    @include flexed ($jc: space-between, $ai: null, $gap: null);
+    
+}
+
+.client__link {
+    @include flexed ($jc: center, $ai: center, $gap: null);
+    
+    width: 170px;
+    height: 92px;
+    border: 1px solid $primari-icon-color;
+    border-radius: 4px;
+    @include transition($type: border);
+}
+
+.client__link:hover,
+.client__link:focus {
+    border: 1px solid $accent-color;
+    $primari-icon-color: $accent-color;
+}
+
+.client__icon {
+    @include transition($type: fill);
+}
+
+.client__link {
+    fill: $primari-icon-color;
+
+    &:hover,
+    &:focus {
+        fill: $accent-color;
+    }
+}
