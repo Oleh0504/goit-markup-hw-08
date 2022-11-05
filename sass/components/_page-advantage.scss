@@ -1,7 +1,62 @@
 /*--Наша перевага*/
 
+.advantage__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+        @media screen and (min-width: 768px) {
+           flex-direction: row; 
+        
+        }
+    
+}
+
+.advantage__item {
+   
+    @media screen and (min-width: 768px) {
+            width: calc((100% - 30px) / 2);
+        }
+    
+    @media screen and (min-width: 1200px) {
+            width: calc((100% - 90px) / 4);
+        }
+}
+.advantage__tumb {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: $grey-background-color;
+}
+
+.advantage__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+
+    color: $title-text-color;
+
+    @media screen and (min-width: 768px) {
+          text-align: left;
+        }
+}
 
 
+
+/*
 .advantage__list {
     display: flex;
     justify-content: space-between;
@@ -31,3 +86,4 @@
 
     color: $title-text-color;
 }
+*/
