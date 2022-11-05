@@ -1,4 +1,14 @@
 /*header*/
 .main-nav {
-    @include flexed ($jc: null, $ai: center, $gap: null);
+   display: flex;
+    align-items: center;
 }
+
+.main-nav {
+    @media screen and (min-width: 768px){
+        .menu-toggle {
+            display: none;
+        }
+     }
+}
+
