@@ -9,8 +9,8 @@
         flex-direction: row;
         flex-wrap: wrap;
         }
-        @media screen and (min-width: 768px) {
-           flex-direction: row; 
+        @media screen and (min-width: 1200px) {
+           flex-wrap: nowrap;
         
         }
     
@@ -26,6 +26,14 @@
             width: calc((100% - 90px) / 4);
         }
 }
+/* Тоже самое 
+@media screen and (min-width: $tablet) {
+    flex-basis: calc((100% - 30px)/2);
+}
+
+@media screen and (min-width: $desktop) {
+    flex-basis: calc((100% - 90px)/4);
+}*/
 .advantage__tumb {
   
     display: flex;

@@ -19,10 +19,13 @@ p {
     margin: 0;
 }
 
-svg,
-img {
+svg {
     display: block;
 }
+
+img { display: block;
+      max-width: 100%;
+      height: auto;}
 
 body {
     background-color: $primary-white-color;

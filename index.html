@@ -210,9 +210,9 @@
         </div>
       </section>             
       <!--Рід діяльності-->
- <!--     <section class="section section no-padding-top">
+       <section class="section section no-padding-top section__activty">
         <div class="container">
-          <h2 class="section-title">Чим ми займаємося</h2>
+          <h2 class="section-title  section-title__activity">Чим ми займаємося</h2>
           <ul class="activity">
             <li>
               <div class="activity__thumb">
@@ -252,14 +252,45 @@
             </li>
           </ul>
         </div>
-      </section>             -->
+      </section>          
       <!--Команда-->
-  <!--      <section class="section command">
+       <section class="section command">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="command__list">
             <li class="command__item">
-              <img src="./images/img-igor.jpg" alt="Фото Ігоря" width="270" />
+               <picture>
+                <source
+                  srcset="
+                    ./images/mobile/igor-450@1x.jpg 1x,
+                    ./images/mobile/igor-450@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/igor-354@1x.jpg 1x,
+                    ./images/tablet/igor-354@2x.jpg 2x
+                  "
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/desctop/igor-270@1x.jpg 1x,
+                    ./images/desctop/igor-270@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <img
+                  class="our-team__list-img"
+                  srcset="
+                    ./images/mobile/igor-450@1x.jpg 1x,
+                    ./images/mobile/igor-450@2x.jpg 2x
+                  "
+                  src="./images/img-igor.jpg"
+                  alt="Фото Ігоря"
+                />
+              </picture>
               <div class="command__thumb">
                 <h3 class="command__title">Ігор Дем'яненко</h3>
                 <p lang="en" class="command__description">Product Designer</p>
@@ -305,7 +336,38 @@
               </div>
             </li>
             <li class="command__item">
-              <img src="./images/img-olga.jpg" alt="Фото Ольга" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/mobile/olga-450@1x.jpg 1x,
+                    ./images/mobile/olga-450@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/olga-354@1x.jpg 1x,
+                    ./images/tablet/olga-354@2x.jpg 2x
+                  "
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/desctop/olga-270@1x.jpg 1x,
+                    ./images/desctop/olga-270@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <img
+                  class="our-team__list-img"
+                  srcset="
+                    ./images/mobile/olga-450@1x.jpg 1x,
+                    ./images/mobile/olga-450@2x.jpg 2x
+                  "
+                  src="./images/img-olga.jpg"
+                  alt="Фото Ольга"
+                />
+              </picture>
               <div class="command__thumb">
                 <h3 class="command__title">Ольга Рєпіна</h3>
                 <p lang="en" class="command__description">Frontend Developer</p>
@@ -351,11 +413,38 @@
               </div>
             </li>
             <li class="command__item">
-              <img
-                src="./images/img-mukola.jpg"
-                alt="Фото Микола"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/mobile/micola-450@1x.jpg 1x,
+                    ./images/mobile/micola-450@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/micola-354@1x.jpg 1x,
+                    ./images/tablet/micola-354@2x.jpg 2x
+                  "
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/desctop/micola-270@1x.jpg 1x,
+                    ./images/desctop/micola-270@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <img
+                  class="our-team__list-img"
+                  srcset="
+                    ./images/mobile/micola-450@1x.jpg 1x,
+                    ./images/mobile/micola-450@2x.jpg 2x
+                  "
+                  src="./images/img-mukola.jpg"
+                  alt="Фото Микола"
+                />
+              </picture>
               <div class="command__thumb">
                 <h3 class="command__title">Микола Тарасов</h3>
                 <p lang="en" class="command__description">Marketing</p>
@@ -401,11 +490,38 @@
               </div>
             </li>
             <li class="command__item">
-              <img
-                src="./images/img-muchail.jpg"
-                alt="Фото Михайло"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/mobile/mihailo-450@1x.jpg 1x,
+                    ./images/mobile/mihailo-450@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/mihailo-354@1x.jpg 1x,
+                    ./images/tablet/mihailo-354@2x.jpg 2x
+                  "
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/desctop/mihailo-270@1x.jpg 1x,
+                    ./images/desctop/mihailo-270@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <img
+                  class="our-team__list-img"
+                  srcset="
+                    ./images/mobile/mihailo-450@1x.jpg 1x,
+                    ./images/mobile/mihailo-450@2x.jpg 2x
+                  "
+                  src="./images/img-muchail.jpg"
+                  alt="Фото Михайло"
+                />
+              </picture>
               <div class="command__thumb">
                 <h3 class="command__title">Михайло Єрмаков</h3>
                 <p lang="en" class="command__description">UI Designer</p>
@@ -453,7 +569,7 @@
           </ul>
         </div>
       </section>
-
+<!--
       <section class="section">
         <div class="container">
           <h2 class="section-title">Постійні клієнти</h2>
