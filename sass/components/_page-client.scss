@@ -1,14 +1,46 @@
 
-/* Наши клиенти*/
+/* Наши клиенти .advantage__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-wrap: nowrap;
+
+    }
+
+}*/
 .client {
-    @include flexed ($jc: space-between, $ai: null, $gap: null);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
     
+}
+
+.client__item {
+    @media screen and (max-width:767px) {
+        flex-basis: calc((100% - 30px)/2);
+    }
+
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 60px)/3);
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 150px)/6);
+    }
 }
 
 .client__link {
     @include flexed ($jc: center, $ai: center, $gap: null);
     
-    width: 170px;
+    width: 100%;
     height: 92px;
     border: 1px solid $primari-icon-color;
     border-radius: 4px;

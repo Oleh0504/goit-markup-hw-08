@@ -62,9 +62,16 @@
             >
           </li>
         </ul>
-         <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg width="40" height="40" fill="currentColor">
-            <use class="menu-button__icon-menu" href="./images/icons.svg#icon-menu_header"></use>
+            <use
+              class="menu-button__icon-menu"
+              href="./images/icons.svg#icon-menu_header"
+            ></use>
           </svg>
         </button>
       </div>
@@ -77,10 +84,10 @@
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="button__hero" data-modal-open>
             Замовити послугу
-          </button>               
+          </button>
           <!--Модалка-->
 
-        <div class="backdrop is-hidden" data-modal>
+          <div class="backdrop is-hidden" data-modal>
             <div class="modal">
               <button type="button" class="button-modal" data-modal-close>
                 <svg class="button-modal-off" width="11" height="11">
@@ -147,14 +154,14 @@
                 </form>
               </div>
             </div>
-          </div>    
+          </div>
 
           <!--Модалка end-->
-      </div>
-      </section>   
-      <!--Наша перевага-->             
-    <section class="section">   
-       <!--<h2>Наша перевага</h2>  Наша перевага-в дальнейшем скроется на странице веб браузера-->
+        </div>
+      </section>
+      <!--Наша перевага-->
+      <section class="section">
+        <!--<h2>Наша перевага</h2>  Наша перевага-в дальнейшем скроется на странице веб браузера-->
 
         <div class="container">
           <h2 class="visually-hidden">Наша перевага</h2>
@@ -208,11 +215,13 @@
             </li>
           </ul>
         </div>
-      </section>             
+      </section>
       <!--Рід діяльності-->
-       <section class="section section no-padding-top section__activty">
+      <section class="section section no-padding-top section__activty">
         <div class="container">
-          <h2 class="section-title  section-title__activity">Чим ми займаємося</h2>
+          <h2 class="section-title section-title__activity">
+            Чим ми займаємося
+          </h2>
           <ul class="activity">
             <li>
               <div class="activity__thumb">
@@ -252,14 +261,14 @@
             </li>
           </ul>
         </div>
-      </section>          
+      </section>
       <!--Команда-->
-       <section class="section command">
+      <section class="section command">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="command__list">
             <li class="command__item">
-               <picture>
+              <picture>
                 <source
                   srcset="
                     ./images/mobile/igor-450@1x.jpg 1x,
@@ -569,7 +578,7 @@
           </ul>
         </div>
       </section>
-<!--
+
       <section class="section">
         <div class="container">
           <h2 class="section-title">Постійні клієнти</h2>
@@ -620,101 +629,104 @@
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="container footer__container">
-        <div>
-          <a lang="en" href="./index.html" class="logo"
-            >Web<span class="logo__footer">Studio</span>
-          </a>
-          <address class="address address--append">
-            <ul class="address__list">
-              <li class="address__item">
+        <div class="footer__thumb">
+          <div class="footer__position">
+            <a lang="en" href="./index.html" class="logo"
+              >Web<span class="logo__footer">Studio</span>
+            </a>
+            <address class="address address--append">
+              <ul class="address__list">
+                <li class="address__item">
+                  <a
+                    href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    class="address__nav"
+                    >м. Київ, пр-т Лесі Українки, 26</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a href="mailto:info@devstudio.com" class="address__link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a href="tel:+380961111111" class="address__link"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-social">
+            <h2 class="visually-hidden">соц. сети</h2>
+            <p class="footer-social__title">Приєднуйтесь</p>
+            <ul class="social-network">
+              <li>
                 <a
-                  href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="address__nav"
-                  >м. Київ, пр-т Лесі Українки, 26</a
+                  class="social-network__item footer-social-network__item"
+                  href="https://www.instagram.com"
                 >
+                  <svg
+                    class="icon-social-network footer-icon__social-network"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-instagram-2"></use></svg
+                ></a>
               </li>
-              <li class="address__item">
-                <a href="mailto:info@devstudio.com" class="address__link"
-                  >info@devstudio.com</a
+              <li>
+                <a
+                  class="social-network__item footer-social-network__item"
+                  href="https://twitter.com"
                 >
+                  <svg
+                    class="icon-social-network footer-icon__social-network"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="address__item">
-                <a href="tel:+380961111111" class="address__link"
-                  >+38 096 111 11 11</a
+              <li>
+                <a
+                  class="social-network__item footer-social-network__item"
+                  href="https://facebook.com/"
                 >
+                  <svg
+                    class="icon-social-network footer-icon__social-network"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-network__item footer-social-network__item"
+                  href="https://linkedin.com/"
+                >
+                  <svg
+                    class="icon-social-network footer-icon__social-network"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
-        </div>
-        <div class="footer-social">
-          <h2 class="visually-hidden">соц. сети</h2>
-          <p class="footer-social__title">Приєднуйтесь</p>
-          <ul class="social-network">
-            <li>
-              <a
-                class="social-network__item footer-social-network__item"
-                href="https://www.instagram.com"
-              >
-                <svg
-                  class="icon-social-network footer-icon__social-network"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#icon-instagram-2"></use></svg
-              ></a>
-            </li>
-            <li>
-              <a
-                class="social-network__item footer-social-network__item"
-                href="https://twitter.com"
-              >
-                <svg
-                  class="icon-social-network footer-icon__social-network"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a
-                class="social-network__item footer-social-network__item"
-                href="https://facebook.com/"
-              >
-                <svg
-                  class="icon-social-network footer-icon__social-network"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a
-                class="social-network__item footer-social-network__item"
-                href="https://linkedin.com/"
-              >
-                <svg
-                  class="icon-social-network footer-icon__social-network"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          </div>
         </div>
         <div class="footer-subscribe">
           <p class="footer-subscribe__title">Підпишіться на розсилку</p>
           <form class="footer-subscribe__form">
-            <label>
+            <label class="footer-subscribe__label">
               <input
                 class="footer-subscribe__email"
                 type="email"
@@ -731,7 +743,7 @@
           </form>
         </div>
       </div>
-    </footer>    -->
+    </footer>
     <script src="./js/modal.js"></script>
   </body>
-</html>               
+</html>
