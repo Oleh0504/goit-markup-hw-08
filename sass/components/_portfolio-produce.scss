@@ -6,8 +6,37 @@
     gap: 30px;
 }
 
+/*.our-portfolio {
+    &__list {
+        @include gap();
+        flex-wrap: wrap;
+    }
+
+    &__list-item {
+        width: 100%;
+
+        @media screen and (min-width: 768px) {
+            width: calc((100% - 30px) / 2);
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: calc((100% - 60px) / 3);
+        }
+    }
+*/
+
 .portfolio-produce {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    width: 100%;
+    
+        @media screen and (min-width: 768px) {
+            width: calc((100% - 30px) / 2);
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: calc((100% - 60px) / 3);
+        }
 }
 
 .portfolio-produce:hover,

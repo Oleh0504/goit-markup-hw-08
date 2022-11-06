@@ -11,7 +11,10 @@
 @import "./components/logo";
 @import "./components/site-nav";
 @import "./components/auth-nav";
-@import "./components/menu-mobail";
+
+/*Mobile menu*/
+@import "./components/menu-mobile";
+
 
 /*main*/
 
@@ -38,11 +41,11 @@
 /* Наши клиенти*/  
 @import "./components/page-client";
 
-/*filter-button*/   /*
+/*filter-button*/   
 @import "./components/filter-button";
 
-/*portfolio-produce*/  /*
-@import "./components/portfolio-produce";*/
+/*portfolio-produce*/  
+@import "./components/portfolio-produce";
 
 /*footer*/  
 @import "./components/footer";

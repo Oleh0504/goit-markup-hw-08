@@ -62,6 +62,18 @@
             >
           </li>
         </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="40" height="40" fill="currentColor">
+            <use
+              class="menu-button__icon-menu"
+              href="./images/icons.svg#icon-menu_header"
+            ></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!--Контент-->
@@ -90,6 +102,7 @@
           <ul class="portfolio">
             <li class="portfolio-produce">
               <div class="portfolio-produce__thumb">
+                
                 <img
                   src="./images/img-texnokryck.jpg"
                   alt="Фото Технокряк"
@@ -289,100 +302,103 @@
       </section>
     </main>
     <footer class="footer">
+      <footer class="footer">
       <div class="container footer__container">
-        <div>
-          <a lang="en" href="./index.html" class="logo"
-            >Web<span class="logo__footer">Studio</span>
-          </a>
-          <address class="address address--append">
-            <ul class="address__list">
-              <li class="address__item">
+        <div class="footer__thumb">
+          <div class="footer__position">
+            <a lang="en" href="./index.html" class="logo"
+              >Web<span class="logo__footer">Studio</span>
+            </a>
+            <address class="address address--append">
+              <ul class="address__list">
+                <li class="address__item">
+                  <a
+                    href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    class="address__nav"
+                    >м. Київ, пр-т Лесі Українки, 26</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a href="mailto:info@devstudio.com" class="address__link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a href="tel:+380961111111" class="address__link"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-social">
+            <h2 class="visually-hidden">соц. сети</h2>
+            <p class="footer-social__title">Приєднуйтесь</p>
+            <ul class="social-network">
+              <li>
                 <a
-                  href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="address__nav"
-                  >м. Київ, пр-т Лесі Українки, 26</a
+                  class="social-network__item footer-social-network__item"
+                  href="https://www.instagram.com"
                 >
+                  <svg
+                    class="icon-social-network footer-icon__social-network"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-instagram-2"></use></svg
+                ></a>
               </li>
-              <li class="address__item">
-                <a href="mailto:info@devstudio.com" class="address__link"
-                  >info@devstudio.com</a
+              <li>
+                <a
+                  class="social-network__item footer-social-network__item"
+                  href="https://twitter.com"
                 >
+                  <svg
+                    class="icon-social-network footer-icon__social-network"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="address__item">
-                <a href="tel:+380961111111" class="address__link"
-                  >+38 096 111 11 11</a
+              <li>
+                <a
+                  class="social-network__item footer-social-network__item"
+                  href="https://facebook.com/"
                 >
+                  <svg
+                    class="icon-social-network footer-icon__social-network"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-network__item footer-social-network__item"
+                  href="https://linkedin.com/"
+                >
+                  <svg
+                    class="icon-social-network footer-icon__social-network"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
-        </div>
-        <div class="footer-social">
-          <h2 class="visually-hidden">соц. сети</h2>
-          <p class="footer-social__title">Приєднуйтесь</p>
-          <ul class="social-network">
-            <li>
-              <a
-                class="social-network__item footer-social-network__item"
-                href="https://www.instagram.com"
-              >
-                <svg
-                  class="icon-social-network footer-icon__social-network"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#icon-instagram-2"></use></svg
-              ></a>
-            </li>
-            <li>
-              <a
-                class="social-network__item footer-social-network__item"
-                href="https://twitter.com"
-              >
-                <svg
-                  class="icon-social-network footer-icon__social-network"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a
-                class="social-network__item footer-social-network__item"
-                href="https://facebook.com/"
-              >
-                <svg
-                  class="icon-social-network footer-icon__social-network"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a
-                class="social-network__item footer-social-network__item"
-                href="https://linkedin.com/"
-              >
-                <svg
-                  class="icon-social-network footer-icon__social-network"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          </div>
         </div>
         <div class="footer-subscribe">
           <p class="footer-subscribe__title">Підпишіться на розсилку</p>
           <form class="footer-subscribe__form">
-            <label>
+            <label class="footer-subscribe__label">
               <input
                 class="footer-subscribe__email"
                 type="email"
@@ -400,6 +416,72 @@
         </div>
       </div>
     </footer>
+
+    <!--Mobile menu-->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle menu-toggle--posit js-close-menu">
+        <svg class="menu-toggle__close" width="40" height="40">
+          <use href="./images/icons.svg#icon-close_40px"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu mobile-menu--indent">
+        <li class="mobile-menu__item">
+          <a href="./index.html" class="mobile-menu__link current">Студія</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="./portfolio.html" class="mobile-menu__link">Портфоліо</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="" class="mobile-menu__link">Контакти</a>
+        </li>
+      </ul>
+      <div>
+        <ul class="mobile-contact">
+          <li class="mobile-contact__item">
+            <a
+              class="mobile-contact__link mobile-contact__link--phn"
+              href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-contact__item">
+            <a class="mobile-contact__link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-social mobile-social--indent">
+          <li class="mobile-social__item">
+            <a class="mobile-social__link" href="#"
+              >Instagram <span class="mobile-social__decor"></span
+            ></a>
+          </li>
+          <li class="mobile-social__item">
+            <a class="mobile-social__link" href="#"
+              >Twitter <span class="mobile-social__decor"></span
+            ></a>
+          </li>
+          <li class="mobile-social__item">
+            <a class="mobile-social__link" href="#"
+              >Facebook <span class="mobile-social__decor"></span
+            ></a>
+          </li>
+          <li class="mobile-social__item">
+            <a class="mobile-social__link" href="#">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
