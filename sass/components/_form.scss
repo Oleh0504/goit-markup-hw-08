@@ -245,6 +245,12 @@
 .checkbox:checked+.check__container .form__check {
     opacity: 1;
 }
+.checkbox__text {
+    @media screen and (max-width:1199px) {
+        font-size: 12px;
+        line-height: 1.15;
+        }
+}
 .form__button {
     padding: 10px 52px;
     border-radius: 4px;
